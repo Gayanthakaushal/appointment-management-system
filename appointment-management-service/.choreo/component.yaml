@@ -28,10 +28,10 @@ endpoints:
     schemaFilePath: openapi.yaml
 
   # +optional Outgoing connection details for the component.
-  dependencies:
-    # +optional Defines the connection references from the Internal Marketplace.
-    connectionReferences:
-      # +required Name of the connection.
-      - name: hr-connection
-        # +required service identifer of the dependent component.
-        resourceRef: service:/HRProject/UserComponent/v1/ad088/PUBLIC
+dependencies:
+  # +optional Defines the connection references from the Internal Marketplace.
+  connectionReferences:
+    # +required Name of the connection.
+    - name: hr-connection
+      # +required service identifer of the dependent component.
+      resourceRef: service:/HRProject/UserComponent/v1/ad088/PUBLIC
